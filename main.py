@@ -9,7 +9,7 @@ from telegram.ext import (
     Application, CommandHandler, MessageHandler, CallbackQueryHandler,
     filters, ContextTypes
 )
-from google import genai
+import google.generativeai as genai
 import aiohttp
 
 # ==== КОНФИГУРАЦИЯ ====
@@ -1423,3 +1423,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
