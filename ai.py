@@ -16,8 +16,8 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # ===== КОНФИГУРАЦИЯ =====
-BOT_TOKEN = 'YOUR_BOT_TOKEN_HERE'
-ADMIN_IDS = [123456789]  # Замените на ваш Telegram ID
+BOT_TOKEN = '8318139763:AAEyH7PSxOAihXeOPiSJ7JnTMd3rZar1Rqc'
+ADMIN_IDS = [7058479669]  # Замените на ваш Telegram ID
 DOWNLOAD_FOLDER = 'downloads'
 STATS_FILE = 'bot_stats.json'
 USERS_FILE = 'users.json'
@@ -653,4 +653,5 @@ def main():
     application.run_polling(allowed_updates=Update.ALL_TYPES)
 
 if __name__ == '__main__':
+
     main()
